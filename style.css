@@ -1,0 +1,53 @@
+
+body {
+    min-height: 2000px;
+}
+#parent {
+    border: 3px solid red;
+    background-color: rgb(210, 210, 210);
+    margin-top: 20px;
+}
+h1 {
+    color: red;
+    border: 3px solid red;
+    padding: 5px;
+}
+input {
+    line-height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+    /* display: none; */
+ }
+input:hover{
+    opacity: 1;
+}
+#btn2
+ #hed {
+    padding-left: 100px;
+} 
+#color {
+    text-align: center;
+    border: 2px solid rgb(17, 14, 25);
+    width: fit-content;
+    background-color: rgb(164, 162, 162);
+    color: rgb(76, 0, 255);
+  padding: 10px;
+  margin-top: 5px;
+    transition: 2000ms ease-in-out;
+    display: none;
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 5px;
+}
+hr{
+    border: 5px solid rgb(0, 89, 255);
+    background-color: black;
+    height: 20px;
+    margin: 0px ;
+    padding: 0;
+}
+
